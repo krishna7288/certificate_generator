@@ -1,0 +1,195 @@
+.certificate-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .certificate-image {
+    width:100%;
+    height: auto;
+  }
+  
+  .header {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+  
+  }
+  .p{
+   font-size: 4rem;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h3{
+    font-size: 1rem;
+    font-weight:bold;
+    margin-left: 13%;
+    color:#861b47;
+   }
+  
+  .student-name,
+  .course-name,
+  .duration,
+  .branch,
+  .CertificateNumber {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .student-name {
+    top:40%;
+    font-size: 80px;
+    font-weight: 100;
+  }
+  .student-name p{
+    font-family:'Monotype Corsiva';
+    color:#861b47;
+  }
+  .course-name  p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(41, 40, 40);
+    font-size: 17px;
+  }
+  .duration  p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(41, 40, 40);
+    font-size: 17px;
+  }
+  .branch  p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(41, 40, 40);
+    font-size: 17px;
+  }
+  .course-name {
+    top: 52%;
+    text-align: center;
+    
+  }
+  
+  .duration {
+    top: 55%;
+    text-align: center;
+  }
+  
+  .branch {
+    top: 58%;
+    text-align: center;
+  }
+  
+  .signs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    
+  }
+  
+  .sign {
+    text-align: center;
+    width: 50%;
+    margin-top: -36%;
+    margin-right: 90px;
+  }
+  .sign1 {
+    text-align: center;
+    width: 50%;
+    margin-top: -36%;
+    margin-left: 140px;
+  }
+  .sign  p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(58, 57, 57);
+    font-size: 12px;
+  }
+  .sign1  p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(58, 57, 57);
+    font-size: 12px;
+  }
+  .CertificateNumber {
+    bottom: 10px;
+    margin-left:60%;
+    top: 87%;
+    font-size: 14px;
+    color: rgb(59, 59, 59);
+  }
+  .proudly-presented {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+   
+    color: #fff;
+   
+    font-family: "font_condensed";
+    text-transform: uppercase;
+    color: #dddeda;
+    letter-spacing: 0.18em;
+    font-size: 14px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    top:36px;
+  }
+  
+  .signature {
+    position: absolute;
+    top:62%; /* Adjust the value as needed */
+    left: 35%;
+    transform: translateX(-50%);
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+  }
+  .signature1 {
+    position: absolute;
+    top: 64%; /* Adjust the value as needed */
+    left:65%;
+    transform: translateX(-50%);
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add space between the certificate and buttons */
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px; /* Add space between the buttons */
+    background-color: #861b47;
+  }
+  button:hover{
+      background:#fbbf20;
+      color: #861b47;
+    }
+
+    /* Add this to your CertificateTemplate.css or create a new CSS file for the modal styles */
+.cancel-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+  
+  .cancel-dialog p {
+    margin-bottom: 10px;
+  }
+  
+  .cancel-dialog-actions {
+    text-align: right;
+  }
+  
+  .cancel-dialog-actions button {
+    margin-left: 10px;
+  }
+  
