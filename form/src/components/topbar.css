@@ -1,0 +1,97 @@
+/* Common styles for .top-bar */
+.top-bar {
+    background-color: #861b47;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  /* Styles for the left part of .top-bar */
+  .top-bar-left {
+    display: flex;
+    align-items: center;
+ 
+  }
+  .top-bar-right
+  {
+    display: flex;
+    align-items: center;
+  }
+  /* Styles for the right part of .top-bar */
+  .top-bar-right a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s;
+    margin: 10px;
+    padding: auto;
+  }
+  
+  .top-bar-right a:hover {
+    color: #fbbf20;
+  }
+  
+  /* Styles for the mobile number section */
+  .mobile-number {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    
+  }
+  
+  .mobile-number svg {
+    margin-right: 5px;
+    margin-left:10px;
+   
+  }
+  
+  .mobile-number:hover {
+    color: #fbbf20;
+    font-size: 14px;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* For devices with a maximum width of 768px (tablet and below) */
+
+
+
+  
+
+  
+  /* Styles for mobile menu links */
+
+  
+  /* Media query for mobile view */
+  /* @media (max-width: 768px) {
+    .top-bar {
+      justify-content: space-between;
+      padding: 10px;
+    }
+  
+    .top-bar-left {
+      flex: 1;
+    }
+  
+    .top-bar-right {
+      flex: 1;
+      text-align: right;
+      margin-right: 5px;
+    }
+  
+    .top-bar.menu-open .top-bar-right {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #861b47;
+      width: 100%;
+      box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+      padding: 10px 0;
+    }
+  } */
+  @media (max-width: 768px) {
+    .top-bar {
+      display: none; /* Hide the entire top-bar in mobile view */
+    }
+  }
